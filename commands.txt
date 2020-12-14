@@ -1,0 +1,65 @@
+npm install -g react-native-cli
+
+//create new project
+react-native init albums
+
+//run android
+react-native run-android
+
+---
+npx react-native init AwesomeProject
+
+npx react-native start
+
+npx react-native run-android
+
+npx react-native start
+
+npx react-native link
+
+http://localhost:8081/debugger-ui/
+
+expo
+npm install -g expo-cli
+
+npm install
+npm start 
+npm start -c
+
+new project
+npx expo-cli init AwesomeProject
+
+npm install react-navigation
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install react-navigation-stack @react-native-community/masked-view
+
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+
+//commands to run jsonserver
+npm run db
+npm run tunnel 
+
+//commands to run mongoDB (inside project)
+node src/index.js
+npm run dev
+
+JSON.parse(``)
+
+// commands to run ngrok (URL)
+ngrok http 3000
+
+npx expo-cli install react-native-maps
+
+//clean permissions android
+adb shell pm reset-permissions
+
+Ctrl + M to open debugger
+
+//know installations
+npm ls --depth=0  
